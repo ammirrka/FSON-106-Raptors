@@ -124,3 +124,41 @@
 // }
 
 // console.log(unique(words));
+
+
+
+// TASK 6
+
+//Напишіть функції для роботи з масивом
+//add(name) додає курс до кінця колекції
+//removeCourse(name) видаляє курс із колекції
+//updateCourse(oldName, newName) змінює ім'я на нове
+// const courses = ["HTML", "CSS", "JavaScript", "React"];
+
+// function addCourse(name) {
+//     courses.push(name);
+// }
+// function removeCourse(name) {
+//     const index = courses.indexOf(name);
+//     if (index!==-1) {
+//       courses.splice(index, 1);
+//     } else {
+//       console.log(`Course ${name} not found`);
+//     }
+// }
+// function updateCourse(oldName, newName) {
+//     const index = courses.indexOf(oldName);
+//     if (courses.includes(oldName)) {
+//       courses[index] = newName;
+//     } else {
+//       console.log(`Course ${oldName} not found`);
+//     }
+// }
+// addCourse("Node.js");
+// console.log(courses); // ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+// removeCourse("React");
+// console.log(courses); //: ["HTML", "CSS", "JavaScript", "Node.js"]
+// updateCourse("JavaScript", "TypeScript");
+// console.log(courses); // ["HTML", "CSS", "TypeScript", "Node.js"]
+// removeCourse("Ruby"); // Course Ruby not found
+// updateCourse("Python", "Django"); // Course Python not found
