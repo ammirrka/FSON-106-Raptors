@@ -16,3 +16,20 @@
 // }
 
 // console.log(findSmallerNumber(numbers));
+
+// Напиши функцію findLongestWord(string)
+//яка приймає довільний рядок
+//що складається лише з розділених слів
+//пробілом (параметр string)
+//і повертає найдовше слово у цьому рядку
+// const string = "Nunc sed turpis a felis in nunc fringilla"
+// const string = "Nunc sed turpis a felis in nunc fringilla"
+// function findLongestWord(string) {
+//         const arr = string.split(' ');
+//         let longestWord = arr[0];
+//     for (const item of arr) {
+//         if (item.length > longestWord.length) longestWord = item;
+//     }
+//     return longestWord;
+// }
+// console.log(findLongestWord(string));
