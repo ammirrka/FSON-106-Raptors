@@ -180,24 +180,23 @@
 //   Python: [{ name: "Боб", age: 22, course: "Python" }],
 //   JavaScript: [{ name: "Джон", age: 23, course: "JavaScript" }],
 // };
-  const students = [
-    { name: "Алиса", age: 20, course: "Java" },
-    { name: "Боб", age: 22, course: "Python" },
-    { name: "Карл", age: 21, course: "Java" },
-    { name: "Джон", age: 23, course: "JavaScript" },
-  ];
+//   const students = [
+//     { name: "Алиса", age: 20, course: "Java" },
+//     { name: "Боб", age: 22, course: "Python" },
+//     { name: "Карл", age: 21, course: "Java" },
+//     { name: "Джон", age: 23, course: "JavaScript" },
+//   ];
 
 
-function groupStudentsByCourse(students){
-const groupedStudents = {};
-for(const student of students){
+// function groupStudentsByCourse(students){
+// const groupedStudents = {};
+// for(const student of students){
      
-     if(!groupedStudents[student.course]){
-          groupedStudents[student.course] = [];
-     }
-     groupedStudents[student.course].push(student);
-     // console.log(groupedStudents[student.course]);
-}
-return groupedStudents;
-}
-console.log(groupStudentsByCourse(students));
+//      if(!groupedStudents[student.course]){
+//           groupedStudents[student.course] = [];
+//      }
+//      groupedStudents[student.course].push(student);
+// }
+// return groupedStudents;
+// }
+// console.log(groupStudentsByCourse(students));
