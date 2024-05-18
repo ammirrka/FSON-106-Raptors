@@ -55,6 +55,40 @@
 //       return `${stone.name} will cost ${totalPrice}`;
 //     }
 //   }
- 
+
 // }
 // console.log(calcTotalPrice(stones, "Діамант"));
+
+// TASK 4
+
+//^ TODO:==========================
+//Напишіть функцію makeInvetedString(), яка замінює регістр кожного символу
+//У сторіччі на протилежний
+//Наприклад 'JavaScript' повинен повернути 'jAVAsCRIPT'
+
+// function makeInvetedString(str) {
+//   let arr = str.split("");
+//   const newArr = [];
+//   for (const letter of arr) {
+//     if (letter === letter.toLowerCase()) {
+//       newArr.push(letter.toUpperCase());
+//     } else {
+//         newArr.push(letter.toLowerCase());
+//     }
+//     }
+//     return newArr.join("");
+// }
+// console.log(makeInvetedString("JavaScript"));
+
+// function makeInvetedString(str) {
+//   let newStr = "";
+//   for (const letter of str) {
+//     if (letter === letter.toLowerCase()) {
+//       newStr+=letter.toUpperCase();
+//     } else {
+//       newStr+=letter.toLowerCase();
+//     }
+//   }
+//   return newStr;
+// }
+// console.log(makeInvetedString("JavaScript"));
