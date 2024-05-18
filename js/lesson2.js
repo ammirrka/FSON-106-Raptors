@@ -92,3 +92,35 @@
 //   return newStr;
 // }
 // console.log(makeInvetedString("JavaScript"));
+
+//^ TODO:============================
+//Напишіть функцію unique(arr), яка повертає масив,
+//містить лише унікальні елементи arr.
+// const words = [
+//   "HTML",
+//   "CSS",
+//   "JS",
+//   "React",
+//   "JS",
+//   "CSS",
+//   "JS",
+//   "Node.js",
+//   "JS",
+//   "React",
+//   "CSS",
+//   "React",
+//   "HTML",
+//   "Node.js",
+// ];
+
+// function unique(arr) {
+//   let newArr = [];
+//   for (const item of arr) {
+//     if (!newArr.includes(item)) {
+//       newArr.push(item);
+//     }
+//   }
+//   return newArr;
+// }
+
+// console.log(unique(words));
