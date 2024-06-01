@@ -157,16 +157,29 @@ const users = [
     },
   ];
 // Отримати масив імен користувачів за статтю (поле gender) за допомогою reduce
-console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+// console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
 
-function getUsersWithGender(users,gend) {
-    return users.reduce((names, {name,gender}) => {
-        if (gender === gend) {
+// function getUsersWithGender(users,gend) {
+//     return users.reduce((names, {name,gender}) => {
+//         if (gender === gend) {
            
-            names.push(name);
-        }
-        return names;
-    },[]);
-}
-const { skills: [first, second] } = users[0]
-console.log(first, second);
+//             names.push(name);
+//         }
+//         return names;
+//     },[]);
+// }
+// const { skills: [first, second] } = users[0]
+// console.log(first, second);
+
+//TODO:==============================================
+// Отримати загальну суму балансу (поле balance) всіх користувачів.
+// console.log(calculateTotalBalance(users)); // 20916
+//TODO:==============================================
+// Отримати масив всіх умінь всіх користувачів (поле skills), при цьому не повинно бути
+// Уміння, що повторюються, і вони повинні бути відсортовані в алфавітному порядку.
+// console.log(getSortedUniqueSkills(users));
+// ['adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit' , 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam']
+//TODO:==============================================
+// Отримати користувача (не масив) по email (поле email, він унікальний).
+// console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {об'єкт користувача Sheree Anthony}
+// console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {об'єкт користувача Elma Head}
