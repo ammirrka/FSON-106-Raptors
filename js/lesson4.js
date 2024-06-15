@@ -74,3 +74,36 @@
 //     box.style.width = strSize;
 //     box.style.height = strSize;
 // } )
+
+/*
+Завдання 4
+При натисканні на коло він повинен слідувати за курсором.
+При повторному натисканні він стає в початкове положення.
+https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/MouseEvent
+https://developer.mozilla.org/ru/docs/Web/API/MouseEvent/pageX
+https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY
+*/
+
+// const circle = document.querySelector(".outerCircle");
+
+// circle.addEventListener("click", onClick);
+
+// function onClick(evt){
+//     const item = evt.currentTarget;
+//     console.log(getComputedStyle(item).position); 
+//     if(item.style.position === "absolute"){
+//         window.removeEventListener("mousemove", onMouseMove);
+//         item.style.position = "unset";
+//         return;
+//     }
+//     window.addEventListener("mousemove", onMouseMove);
+//     item.style.position = "absolute";
+// }
+
+// function onMouseMove(evt){
+//     circle.style.left = evt.pageX - 20 + "px";
+//     circle.style.top = evt.pageY - 20 + "px";
+// }
+
+
+
