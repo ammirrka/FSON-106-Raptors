@@ -35,3 +35,42 @@
 //     btn.textContent = "Розкрити";
 //     }
 // }
+
+/*
+Завдання 3
+Кнопка "Зменшити" робить квадрат менше на 10 пікселів, допопка "Збільшити" - більше на 10 пікселів.
+*/
+
+const box = document.querySelector("#box");
+
+const decreaseBtn = document.querySelector("#decrease");
+const increaseBtn = document.querySelector("#increase");
+
+
+// let widthOfElement = parseInt(getComputedStyle(box).width);
+// let heightOfElement = parseInt(getComputedStyle(box).height);
+let boxSize = parseInt(getComputedStyle(box).width);
+
+decreaseBtn.addEventListener("click", () => {
+    // widthOfElement -= 10;
+    // heightOfElement -=10;
+    // box.style.width = widthOfElement + "px";
+    // box.style.height = heightOfElement  + "px";
+
+    boxSize -= 10;
+    const strSize = boxSize + "px";
+    box.style.width = strSize;
+    box.style.height = strSize;
+} )
+
+increaseBtn.addEventListener("click", () => {
+    // widthOfElement += 10;
+    // heightOfElement +=10;
+    // box.style.width = widthOfElement  + "px";
+    // box.style.height = heightOfElement  + "px";
+
+    boxSize += 10;
+    const strSize = boxSize + "px";
+    box.style.width = strSize;
+    box.style.height = strSize;
+} )
